@@ -61,8 +61,8 @@ header section {
 
 
 .logo-rosae {
-  width: 150px;
-  margin: 0;
+  width: 200px;
+  margin: 20px 0 0;
   border: none;
   border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
 }
@@ -195,7 +195,7 @@ padding: 3rem;
 }
 
 #About .card img {
-  height: 30rem;
+  height: 40rem;
   width: 65rem;
   box-sizing: border-box;
 }
