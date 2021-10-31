@@ -189,6 +189,9 @@ padding: 3rem;
   font-size: xx-large;
   align-self: center;
 }
+#Events h2{
+  font-size: large;
+}
 #Events .card{
   display: flex;
   justify-content: space-evenly;
