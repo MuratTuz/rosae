@@ -61,7 +61,7 @@ header section {
 
 
 .logo-rosae {
-  width: 200px;
+  width: 15vw;
   margin: 20px 0 0;
   border: none;
   border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
@@ -143,7 +143,7 @@ h2{
   text-align: center;
 }
 main > article {
-  width: 80vw;
+  width: 70vw;
   position: relative;
   margin: 5em 1em;
   padding: 2em 0;
@@ -153,6 +153,9 @@ main > article {
 display: flex;
 flex-direction: column;
 padding: 3rem;
+}
+#Home .card, #Home .card img{
+  width: 100%;
 }
 #Products{
   display: flex;
@@ -166,6 +169,7 @@ padding: 3rem;
 #Products .card{
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .pack{
   display: flex;
@@ -176,7 +180,7 @@ padding: 3rem;
   max-height: 15rem;
 }
 .pack:hover{
-  transform: scale(1.5);
+  transform: scale(1.2);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -195,12 +199,27 @@ padding: 3rem;
 #Events .card{
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
-
+#About{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 #About .card img {
-  height: 40rem;
-  width: 65rem;
+  width: 65vw;
   box-sizing: border-box;
+}
+#Contact .card{
+  width: 25em;
+  /* white-space: nowrap; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#Contact .description{
+  width: 30em;
+  text-align: justify;
 }
 main > article:nth-of-type(odd) {
   background-color: whitesmoke;
@@ -248,10 +267,6 @@ article .description li {
   padding-left: 1em;
 }
 
-article .description li:before {
-  content: "-";
-  padding-right: 0.5em;
-}
 
 main article section {
   padding: 1rem;
